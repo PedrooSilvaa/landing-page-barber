@@ -139,3 +139,75 @@ header {
     object-fit: cover;
     position: absolute;
 }
+
+#servicos {
+    height: 100vh;
+    background-color: rgb(6, 18, 30);
+    color: white;
+}
+
+#servicos h1 {
+    font-size: 44px;
+}
+
+#txt-servicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+#p-servicos {
+    font-size: 20px;
+    width: 836px;
+    
+}
+
+.box img {
+    width: 354px;
+    height: 313px;
+    top: 1559px;
+    left: 543px;
+    object-fit: cover;
+}
+
+.grid-servicos {
+    display: grid;
+    grid-template-columns: 354px 354px 354px;
+    justify-content: space-around;
+}
+
+.box {
+    margin-top: 40px;
+}
+
+.preco-botao {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 76px;
+    font-size: 18px;
+    padding: 0 20px;
+    font-weight: 900;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    color: black;
+}   
+
+.preco {
+    width: 101px;
+    height: 34px;
+    top: 1893px;
+    left: 782px;
+    border-radius: 8px;
+    background-color: #D94140;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
