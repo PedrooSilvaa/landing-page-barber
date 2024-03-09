@@ -279,26 +279,27 @@ footer img {
     #sobre {
         flex-direction: column;
         height: fit-content;
+        padding: 20px 0;
     }
     
     #imagem-sobre-1 {
         width: 212.53px;
         height: 236.66px;
-        top: 1186.29px;
-        left: 168px;
+        top: 1486.29px;
+        left: 248px;
     }
     
     #imagem-sobre-2 {
         width: 267.7px;
         height: 158.19px;
-        top: 1060.47px;
-        left: 4px;
+        top: 1360.47px;
+        left: 14px;
     }
     #imagem-sobre-3 {
         width: 258px;
         height: 287.7px;
-        top: 800px;
-        left: 110px;
+        top: 1100px;
+        left: 198px;
     }
     #sobre #imagens {
         width: 100%;
