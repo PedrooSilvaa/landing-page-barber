@@ -161,7 +161,6 @@ header {
     text-align: center;
     justify-content: center;
     gap: 50px;
-
 }
 #p-servicos {
     font-size: 20px;
@@ -235,7 +234,7 @@ footer img {
 }
 
 .contatos {
-    width: 1440px;
+    width: 100%;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -247,4 +246,109 @@ footer img {
 #logo-contato {
     width: 166px;
     height: 196px;
+}
+
+@media(max-width: 800px){
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #button-menu {
+        display: none;
+    }
+
+    #txt-inicio h1 {
+        width: 400px;
+    }
+    
+    #txt-inicio p {
+        font-size: 16px
+    }
+
+    #txt-inicio h1 {
+        font-size: 36px;
+    }
+
+    #txt-inicio button{
+        width: 193px;
+        height: 48px;
+        font-size: 16px;        
+    }
+
+    #sobre {
+        flex-direction: column;
+        height: fit-content;
+    }
+    
+    #imagem-sobre-1 {
+        width: 212.53px;
+        height: 236.66px;
+        top: 1186.29px;
+        left: 168px;
+    }
+    
+    #imagem-sobre-2 {
+        width: 267.7px;
+        height: 158.19px;
+        top: 1060.47px;
+        left: 4px;
+    }
+    #imagem-sobre-3 {
+        width: 258px;
+        height: 287.7px;
+        top: 800px;
+        left: 110px;
+    }
+    #sobre #imagens {
+        width: 100%;
+    }
+    
+    #sobre #txtsobre {
+        margin-top: 800px;
+        width: 100%;
+        padding: 0 50px;
+    }
+
+    #txtsobre h1 {
+        width: 100%;
+    }
+    #txtsobre p {
+        width: 100%;
+        height: fit-content;
+    }
+
+    #servicos {
+        height: fit-content;
+        padding: 50px 0;
+    }
+
+    .grid-servicos {
+        grid-template-columns: 354px;
+    }
+
+    footer img {
+        margin: 40px 0;
+        width: 100%;
+        height: 412px;
+        object-fit: cover;
+    }   
+
+    .contatos p {
+        font-size: 16px;
+        width: 300px;
+        text-align: center;
+    }
+
+
+    #txt-servicos {
+        width: 100%;
+    }
+
+
+    #txt-servicos p {
+        width: 100%;
+        padding: 0 50px;
+    }
+    
 }
