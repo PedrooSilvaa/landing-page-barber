@@ -81,3 +81,61 @@ header {
     left: 574px;
 
 }
+
+#sobre {
+    height: 100vh;
+    background-color: #06121E;
+    display: flex;
+}
+
+#sobre #imagens {
+    width: 50%;
+}
+
+#sobre #txtsobre {
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 30px;
+}
+
+#txtsobre p {
+    width: 582px;
+    height: 81px;  
+    font-size: 18px;
+}
+
+#txtsobre h1 {
+    width: 582px;
+    font-size: 44px;
+}
+
+#imagem-sobre-1 {
+    width: 229px;
+    height: 255px;
+    top: 1010px;
+    left: 428px;
+    object-fit: cover;
+    position: absolute;
+}
+
+#imagem-sobre-2 {
+    width: 310px;
+    height: 192px;
+    top: 938px;
+    left: 87px;
+    object-fit: cover;
+    position: absolute;
+}
+#imagem-sobre-3 {
+    width: 278px;
+    height: 310px;
+    top: 736px;
+    left: 329px;
+    object-fit: cover;
+    position: absolute;
+}
